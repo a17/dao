@@ -6,6 +6,8 @@ Simple decentralized organization implementation with onchain-voting governance 
 - Governance: `Governor`
 - Treasure: `TimelockController`, `ERC721Holder`, `ERC1155Holder`
 
+
+
 ```shell
 yarn
 hardhat accounts
@@ -27,3 +29,11 @@ solhint 'contracts/**/*.sol' --fix
 hardhat run --network ropsten scripts/deploy.ts
 hardhat verify --network ropsten DEPLOYED_CONTRACT_ADDRESS "string param1"
 ```
+
+## Tokenomics
+> This is the basic setup of a DAO
+[Tokenomics 101: DAOs](https://medium.com/coinmonks/tokenomics-101-daos-f22dc516fa32)
+
+<div align="center">
+  <img alt="DAO tokenomics" src="https://miro.medium.com/max/1400/0*dwy-pUuD1eFyVF0w">
+</div>
