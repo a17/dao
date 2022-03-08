@@ -1,12 +1,21 @@
 # DAO
 
-Simple decentralized organization implementation with onchain-voting governance system based on [OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts).
+Simple decentralized organization implementation with on-chain governance system based on [openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts).
+
+## Contracts
 
 - Token: `ERC20Votes` token
 - Governance: `Governor`
 - Treasure: `TimelockController`, `ERC721Holder`, `ERC1155Holder`
 
 
+## Docs
+
+- [How to set up on-chain governance](https://docs.openzeppelin.com/contracts/4.x/governance)
+- [Governor API](https://docs.openzeppelin.com/contracts/4.x/api/governance)
+
+
+## Usage
 
 ```shell
 yarn
